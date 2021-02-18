@@ -787,9 +787,9 @@ puntero del mouse sobre un
     column-rule-width: 1px; 
     /* color de la raya que divide las columnas */
     column-rule-color: white;
-    /* Especificamos todas esas propiedades juntas*/
-    column-rule: ;
-    /* Especifica cuantas columnas debe abarcar un elemento */
+    /* Especificamos todas esas propiedades juntas de los rules*/
+    column-rule:1px solid blue ;
+    /* Especifica cuantas columnas debe abarcar un elemento en especifico all abarca todas las columnas */
     column-span: all;
     /* Ancho optimo de nuestras columnas */
     column-width: 200px;
