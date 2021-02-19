@@ -1,489 +1,469 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #colores {
-    /*Color de letras*/
-    color: aliceblue;
-    /*Los puedes poner el ingles */
-    color: #0b16b1;
-    /*Como tambien lo puedes poner en codigos*/
+  /*Color de letras*/
+  color: aliceblue;
+  /*Los puedes poner el ingles */
+  color: #0b16b1;
+  /*Como tambien lo puedes poner en codigos*/
 }
 
 #backgrounds {
-    /*backgrounds colors */
-    background-color: azure;
-    /*define el color de fondo de un elemento*/
-    object-fit: cover;
-    /*arregla las imagenes que se ven desproporcionadas*/
-    /*GRASAAAAAAAAAAAAAAAAAA*/
-    /*backgrounds images*/
-    background-image: url(/*direccion de la imagen*/);
-    /*sirve para poner imagen de fondo a un elemento */
-    background-repeat: inherit;
-    background-repeat: initial;
-    background-repeat: space;
-    background-repeat: no-repeat;
-    /*Hace que la imagen no se repita*/
-    background-repeat: repeat-x;
-    /*Quiere decir que  se va a repetir de forma horizontal unicamente*/
-    background-repeat: repeat-y;
-    /*Quiere decir que se va a repetir de forma vertical unicamente*/
-    background-repeat: round;
-    background-repeat: unset;
-    background-position: bottom;
-    /*left | right| center| inherit | inicial */
-    /*Posiciona la imagen en un lugar de la pantalla*/
-    background-attachment: fixed;
-    /*Hace que la imagen se quede fija*/
-    background-attachment: scroll;
-    /*se moverá junto con el contenido*/
-    background-size: 100%100%;
-    /*HAce que el background ocupe el 100%*/
-
+  /*backgrounds colors */
+  background-color: azure;
+  /*define el color de fondo de un elemento*/
+  object-fit: cover;
+  /*arregla las imagenes que se ven desproporcionadas*/
+  /*GRASAAAAAAAAAAAAAAAAAA*/
+  /*backgrounds images*/
+  background-image: url(direccion de la imagen);
+  /*sirve para poner imagen de fondo a un elemento */
+  background-repeat: inherit;
+  background-repeat: initial;
+  background-repeat: space;
+  background-repeat: no-repeat;
+  /*Hace que la imagen no se repita*/
+  background-repeat: repeat-x;
+  /*Quiere decir que  se va a repetir de forma horizontal unicamente*/
+  background-repeat: repeat-y;
+  /*Quiere decir que se va a repetir de forma vertical unicamente*/
+  background-repeat: round;
+  background-repeat: unset;
+  background-position: bottom;
+  /*left | right| center| inherit | inicial */
+  /*Posiciona la imagen en un lugar de la pantalla*/
+  background-attachment: fixed;
+  /*Hace que la imagen se quede fija*/
+  background-attachment: scroll;
+  /*se moverá junto con el contenido*/
+  background-size: 100%100%;
+  /*HAce que el background ocupe el 100%*/
 }
 
 #mouse {
-    cursor: pointer;
-    cursor: crosshair;
+  cursor: pointer;
+  cursor: crosshair;
 }
 
 #borders {
-    /*Tipos de bordes */
-    border-style: dotted;
-    /*define un borde punteado*/
-    border-style: dashed;
-    /*Define un borde discontinuo*/
-    border-style: solid;
-    /*define un borde lineal*/
-    border-style: groove;
-    /*define un borde acanalado*/
-    border-style: inset;
-    /*define un borde 3D insertado*/
-    border-style: none;
-    /*Quita los bordes*/
-    border-style: hidden;
-    /*define un borde oculto*/
-    border-style: dotted solid;
-    /*define diferentes bordes para la derecha, izquierda, arriba y abajo*/
-    /*Anchos de bordes*/
-    border-width: 5px;
-    /*especifica el ancho del border*/
-    border-width: 2px 5px 10px 20px;
-    /*Arriba, abajo, derecha, izquierda*/
-    /*Colores de bordes*/
-    border-color: #ffffff;
-    /*Da color al borde*/
-    border-top: #ffffff;
-    /*Para dar un borde arriba*/
-    border-radius: 20px;
-    /*todos*/
-    border-radius: 20px 30px 40px;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 200px;
-    border-bottom-right-radius: 300px;
-    border-bottom-right-radius: 400px;
-    /*Borde redondeando las esquinas*/
+  /*Tipos de bordes */
+  border-style: dotted;
+  /*define un borde punteado*/
+  border-style: dashed;
+  /*Define un borde discontinuo*/
+  border-style: solid;
+  /*define un borde lineal*/
+  border-style: groove;
+  /*define un borde acanalado*/
+  border-style: inset;
+  /*define un borde 3D insertado*/
+  border-style: none;
+  /*Quita los bordes*/
+  border-style: hidden;
+  /*define un borde oculto*/
+  border-style: dotted solid;
+  /*define diferentes bordes para la derecha, izquierda, arriba y abajo*/
+  /*Anchos de bordes*/
+  border-width: 5px;
+  /*especifica el ancho del border*/
+  border-width: 2px 5px 10px 20px;
+  /*Arriba, abajo, derecha, izquierda*/
+  /*Colores de bordes*/
+  border-color: #ffffff;
+  /*Da color al borde*/
+  border-top: #ffffff;
+  /*Para dar un borde arriba*/
+  border-radius: 20px;
+  /*todos*/
+  border-radius: 20px 30px 40px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 300px;
+  border-bottom-right-radius: 400px;
+  /*Borde redondeando las esquinas*/
 
-    border-image: url() 50 round;
-    /*debe de tener el borde ya creado esto lo que hace es covertirlo a imagen*/
-    border-image: url() 50 stretch;
-    border-image: url() 50 round;
-    border: 5px solid blue;
-    
+  border-image: url() 50 round;
+  /*debe de tener el borde ya creado esto lo que hace es covertirlo a imagen*/
+  border-image: url() 50 stretch;
+  border-image: url() 50 round;
+  border: 5px solid blue;
 }
 
 #margenes {
-    /*Margenes*/
-    margin: auto;
-    /*margen automatico de derecha a izquierda*/
-    margin-top: 30px;
-    /*arriba*/
-    margin-bottom: 30px;
-    /*abajo*/
-    margin-left: 30px;
-    /*Derecha*/
-    margin-right: 30px;
-    /*izquierdaS*/
-    margin: 25px 50px 75px 100px;
-    /*Arriba-derecha-abajo-izquierda*/
-    margin: 25px 50px 75px;
-    /*arriba- derechoizquierdo-abajo*/
-    margin: 25px 50px;
-    /*arriba,abajo--derecho,izquierdo*/
-    margin: 25px;
-    /*Todos los margenes*/
-
+  /*Margenes*/
+  margin: auto;
+  /*margen automatico de derecha a izquierda*/
+  margin-top: 30px;
+  /*arriba*/
+  margin-bottom: 30px;
+  /*abajo*/
+  margin-left: 30px;
+  /*Derecha*/
+  margin-right: 30px;
+  /*izquierdaS*/
+  margin: 25px 50px 75px 100px;
+  /*Arriba-derecha-abajo-izquierda*/
+  margin: 25px 50px 75px;
+  /*arriba- derechoizquierdo-abajo*/
+  margin: 25px 50px;
+  /*arriba,abajo--derecho,izquierdo*/
+  margin: 25px;
+  /*Todos los margenes*/
 }
 
 #paddings {
-    padding: auto;
-    /*padding automatico de derecha a izquierda*/
-    padding-top: 30px;
-    /*arriba*/
-    padding-bottom: 30px;
-    /*abajo*/
-    padding-left: 30px;
-    /*Derecha*/
-    padding-right: 30px;
-    /*izquierdaS*/
-    padding: 25px 50px 75px 100px;
-    /*Arriba-derecha-abajo-izquierda*/
-    padding: 25px 50px 75px;
-    /*arriba- derechoizquierdo-abajo*/
-    padding: 25px 50px;
-    /*arriba,abajo--derecho,izquierdo*/
-    padding: 25px;
-    /*Todos los paddings*/
+  padding: auto;
+  /*padding automatico de derecha a izquierda*/
+  padding-top: 30px;
+  /*arriba*/
+  padding-bottom: 30px;
+  /*abajo*/
+  padding-left: 30px;
+  /*Derecha*/
+  padding-right: 30px;
+  /*izquierdaS*/
+  padding: 25px 50px 75px 100px;
+  /*Arriba-derecha-abajo-izquierda*/
+  padding: 25px 50px 75px;
+  /*arriba- derechoizquierdo-abajo*/
+  padding: 25px 50px;
+  /*arriba,abajo--derecho,izquierdo*/
+  padding: 25px;
+  /*Todos los paddings*/
 }
 
 #AnchoyAltos {
-    width: auto;
-    /*ancho dependiendo lo que tenga */
-    height: auto;
-    /*alto dependiendo lo que tenga */
-    width: 300px;
-    /*ancho*/
-    height: 300px;
-    /*alto*/
-    max-width: 1000px;
-    /*maximo de anchura a nuestro elemento*/
-    max-height: 1000px;
-    /*maximo de altura a nuestro elemento*/
+  width: auto;
+  /*ancho dependiendo lo que tenga */
+  height: auto;
+  /*alto dependiendo lo que tenga */
+  width: 300px;
+  /*ancho*/
+  height: 300px;
+  /*alto*/
+  max-width: 1000px;
+  /*maximo de anchura a nuestro elemento*/
+  max-height: 1000px;
+  /*maximo de altura a nuestro elemento*/
 }
 
 #boxmodel {
-    box-sizing: border-box;
-    /*adecua el contenido a la caja*/
+  box-sizing: border-box;
+  /*adecua el contenido a la caja*/
 }
 
 #outline {
-    /*Sirve para colocar un borde fuera del borde*/
-    outline-style: solid;
-    outline-width: 11x;
-    outline-color: hsla(240, 100%, 50%, 0.26);
-    outline: solid 40px solid;
+  /*Sirve para colocar un borde fuera del borde*/
+  outline-style: solid;
+  outline-width: 11x;
+  outline-color: hsla(240, 100%, 50%, 0.26);
+  outline: solid 40px solid;
 }
 
 #texto {
-    /**/
-    letter-spacing: 3px;
-    /*Especificar distancia entre los caracteres del texto*/
-    letter-spacing: -3px;
-    /*Pega las letras*/
-    line-height: 0.7;
-    /*Se usa para especificar el espacio entre lineas*/
-    word-spacing: 4px;
-    /*Espacio entre palabras de un parrafo*/
+  /**/
+  letter-spacing: 3px;
+  /*Especificar distancia entre los caracteres del texto*/
+  letter-spacing: -3px;
+  /*Pega las letras*/
+  line-height: 0.7;
+  /*Se usa para especificar el espacio entre lineas*/
+  word-spacing: 4px;
+  /*Espacio entre palabras de un parrafo*/
 
-    text-align: center;
-    /*alinear el texto al centro*/
-    text-align: justify;
-    /*justificado*/
-    text-align: right;
-    /*derecha*/
-    text-align: left;
-    /*izquierda*/
-    text-align: start;
-    /*inicio del contenedor*/
-    text-align: end;
-    /*final del contenedor*/
-    text-align: inherit;
-    /*Toma el valor que tiene el elemento padre es decir que si una etiqueta mayor está justificada el tambien se justifica*/
-    text-align: unset;
-    text-align: initial;
-    /*Se usa para trasformar el texto */
-    text-transform: uppercase;
-    /*minusculas a mayuzculas*/
-    text-transform: capitalize;
-    /*pone la primera letra mayuzcula*/
-    text-transform: lowercase;
-    /*Mayuzculas a minusculas*/
-    text-transform: none;
-    /*Quita cualquier transformacion*/
-    text-transform: inherit;
-    /*Toma el valor de su etiqueta padre*/
-    text-transform: initial;
-    text-transform: unset;
+  text-align: center;
+  /*alinear el texto al centro*/
+  text-align: justify;
+  /*justificado*/
+  text-align: right;
+  /*derecha*/
+  text-align: left;
+  /*izquierda*/
+  text-align: start;
+  /*inicio del contenedor*/
+  text-align: end;
+  /*final del contenedor*/
+  text-align: inherit;
+  /*Toma el valor que tiene el elemento padre es decir que si una etiqueta mayor está justificada el tambien se justifica*/
+  text-align: unset;
+  text-align: initial;
+  /*Se usa para trasformar el texto */
+  text-transform: uppercase;
+  /*minusculas a mayuzculas*/
+  text-transform: capitalize;
+  /*pone la primera letra mayuzcula*/
+  text-transform: lowercase;
+  /*Mayuzculas a minusculas*/
+  text-transform: none;
+  /*Quita cualquier transformacion*/
+  text-transform: inherit;
+  /*Toma el valor de su etiqueta padre*/
+  text-transform: initial;
+  text-transform: unset;
 
-    /*Se usa para decorar el texto*/
-    text-decoration: none;
-    /*Quita la decoracion de los enlaces o textos*/
-    text-decoration: overline;
-    /*linea arriba del texto*/
-    text-decoration: line-through;
-    /*tachadura al texto*/
-    text-decoration: underline;
-    /*por debajo de la linea*/
+  /*Se usa para decorar el texto*/
+  text-decoration: none;
+  /*Quita la decoracion de los enlaces o textos*/
+  text-decoration: overline;
+  /*linea arriba del texto*/
+  text-decoration: line-through;
+  /*tachadura al texto*/
+  text-decoration: underline;
+  /*por debajo de la linea*/
 
-    /*se usa para la direccion del texto en un elemento*/
-    direction: ltr;
-    /*se alinea a la izquierda*/
-    direction: rtl;
-    /*se alinea a la derecha*/
-    direction: inherit;
-    direction: initial;
-    direction: unset;
+  /*se usa para la direccion del texto en un elemento*/
+  direction: ltr;
+  /*se alinea a la izquierda*/
+  direction: rtl;
+  /*se alinea a la derecha*/
+  direction: inherit;
+  direction: initial;
+  direction: unset;
 
-    /*Especificar una sangria al principio de un texto*/
-    text-indent: 50px;
-    /*es decir da un espacio de 50px al inicio del parrafo en la primera linea*/
+  /*Especificar una sangria al principio de un texto*/
+  text-indent: 50px;
+  /*es decir da un espacio de 50px al inicio del parrafo en la primera linea*/
 
-    /*Sombras al texto*/
-    text-shadow: 3px 5px blue;
-    /*horizontal vertical color */
-
+  /*Sombras al texto*/
+  text-shadow: 3px 5px blue;
+  /*horizontal vertical color */
 }
 
 #text-efects {
-    text-overflow: clip;
-    /*Nos oculta el texto que no cabe */
-    text-overflow: ellipsis;
-    /*Nos oculta el texto que no cabe y  pone puntos suspensivos para que sepamos que hay mas*/
-
+  text-overflow: clip;
+  /*Nos oculta el texto que no cabe */
+  text-overflow: ellipsis;
+  /*Nos oculta el texto que no cabe y  pone puntos suspensivos para que sepamos que hay mas*/
 }
 
-
 #iconos {
-    /**/
+  /**/
 }
 
 #fonts {
-    /*se debe poner dos tipos de fuente por si el navegador no admite una de las dos*/
-    font-family: 'Times New Roman', Times, serif;
-    /*tipo de letras*/
+  /*se debe poner dos tipos de fuente por si el navegador no admite una de las dos*/
+  font-family: "Times New Roman", Times, serif;
+  /*tipo de letras*/
 
-    /*Estilos de las letras*/
-    font-style: normal;
-    /*El texto se muestra normal*/
-    font-style: italic;
-    /*El texto se muestra en cursiva*/
-    font-style: oblique;
-    /*El texto se encuentra inclinado es similar a la cursiva*/
+  /*Estilos de las letras*/
+  font-style: normal;
+  /*El texto se muestra normal*/
+  font-style: italic;
+  /*El texto se muestra en cursiva*/
+  font-style: oblique;
+  /*El texto se encuentra inclinado es similar a la cursiva*/
 
-    /*tamaños de texto*/
-    font-size: 40px;
-    /* 40px = 2.5em*/
-    font-size: 2.5em;
-    /*2.5em = 40px*/
-    font-size: 10vw;
+  /*tamaños de texto*/
+  font-size: 40px;
+  /* 40px = 2.5em*/
+  font-size: 2.5em;
+  /*2.5em = 40px*/
+  font-size: 10vw;
 
-    /*peso de la fuente*/
-    font-weight: bold;
-    /*equivale a 700*/
-    font-weight: normal;
-    /*equivale a 400 la letra normal*/
-    font-weight: bolder;
-    /*mas en negrita que el peso fuente heredado*/
-    font-weight: lighter;
-    /*mas ligero que el peso fuente heredado*/
-    font-weight: 300;
+  /*peso de la fuente*/
+  font-weight: bold;
+  /*equivale a 700*/
+  font-weight: normal;
+  /*equivale a 400 la letra normal*/
+  font-weight: bolder;
+  /*mas en negrita que el peso fuente heredado*/
+  font-weight: lighter;
+  /*mas ligero que el peso fuente heredado*/
+  font-weight: 300;
 
-    font-variant: small-caps;
-    /*pone las letras en mayusculas*/
-    font-variant: normal;
+  font-variant: small-caps;
+  /*pone las letras en mayusculas*/
+  font-variant: normal;
 }
 
 /*etiquetas link*/
 a:hover {
-    color: maroon;
-    /*cuando pasamos el mouse por arriba*/
-
+  color: maroon;
+  /*cuando pasamos el mouse por arriba*/
 }
 
 a:active {
-    color: chartreuse;
-    /*cuando presiono el link se queda con el formato que especifiquemos*/
+  color: chartreuse;
+  /*cuando presiono el link se queda con el formato que especifiquemos*/
 }
 
 a:link {
-    color: purple;
+  color: purple;
 }
 
 a:link {
-    color: saddlebrown;
+  color: saddlebrown;
 }
-
 
 /*etiquetas para las listas*/
 
 #listas {
-    /*Para lista desordenadas*/
-    list-style-type: circle;
-    /*Circulo*/
-    list-style-type: square;
-    /*cuadrado*/
+  /*Para lista desordenadas*/
+  list-style-type: circle;
+  /*Circulo*/
+  list-style-type: square;
+  /*cuadrado*/
 
-    /*para listas ordenadas*/
-    list-style-type: lower-alpha;
-    /*letras*/
-    list-style-type: upper-roman;
-    /*ponerla en numeros romanos*/
+  /*para listas ordenadas*/
+  list-style-type: lower-alpha;
+  /*letras*/
+  list-style-type: upper-roman;
+  /*ponerla en numeros romanos*/
 
+  list-style-image: url(nombre de la imagen);
+  /* para poner imagenes en la lista*/
 
-    list-style-image: url(/*nombre de la imagen*/);
-    /* para poner imagenes en la lista*/
+  list-style-type: none;
+  /*quita las viñetas*/
+  list-style-position: outside;
+  /*las viñetas estaran fuera del elemento de la lista*/
+  list-style-position: inside;
+  /*las viñetas estaran dentro del elemento de la lista*/
 
-    list-style-type: none;
-    /*quita las viñetas*/
-    list-style-position: outside;
-    /*las viñetas estaran fuera del elemento de la lista*/
-    list-style-position: inside;
-    /*las viñetas estaran dentro del elemento de la lista*/
-
-    /*primero se pone el tipo luego la posicion y luego la imagen*/
-    list-style: square inside url(/*direccion de la imagen*/);
-
-
+  /*primero se pone el tipo luego la posicion y luego la imagen*/
+  list-style: square inside url(direccion de la imagen);
 }
 
 #tablas {
-    /*creacion de border*/
-    border-collapse: collapse;
-    /*hace un borde unico en la tabla en vez de ser doble*/
-    border: 1px solid #0b16b1;
+  /*creacion de border*/
+  border-collapse: collapse;
+  /*hace un borde unico en la tabla en vez de ser doble*/
+  border: 1px solid #0b16b1;
 
-    vertical-align: bottom;
-    /*alinea el texto al final*/
+  vertical-align: bottom;
+  /*alinea el texto al final*/
 
-    overflow-x: auto;
-    /*sirve para poner la tabla responsiva*/
-
+  overflow-x: auto;
+  /*sirve para poner la tabla responsiva*/
 }
 
 /*para hacer que se vean las etiquetas coloreadas una si y una no usamos esta propiedad*/
 
 tr:nth-child(even) {
-    background-color: #0b16b1;
+  background-color: #0b16b1;
 }
 
 #displays {
-    display: block;
-    /*se muestra en bloque 100% del contenedor*/
-    display: inline;
-    /*Se muestra uno al lado del otro*/
-    display: none;
-    /*no deja el espacio y oculta elementos*/
-    visibility: hidden;
-    /*deja el espacio y oculta el elemento*/
+  display: block;
+  /*se muestra en bloque 100% del contenedor*/
+  display: inline;
+  /*Se muestra uno al lado del otro*/
+  display: none;
+  /*no deja el espacio y oculta elementos*/
+  visibility: hidden;
+  /*deja el espacio y oculta el elemento*/
 }
 
 #positions {
+  /*se usa para luego poner y posicionar elementos en un contenedor*/
+  position: static;
+  /*se ajusta a la pagina*/
+  position: relative;
+  /**/
+  position: fixed;
+  /*se queda fijado aunque desplazemos la pagina*/
+  position: absolute;
+  /*hace que coja las posiciones dadas*/
+  position: sticky;
 
-    /*se usa para luego poner y posicionar elementos en un contenedor*/
-    position: static;
-    /*se ajusta a la pagina*/
-    position: relative;
-    /**/
-    position: fixed;
-    /*se queda fijado aunque desplazemos la pagina*/
-    position: absolute;
-    /*hace que coja las posiciones dadas*/
-    position: sticky;
+  z-index: -1;
+  /*se pone debajo de un elemento*/
+  z-index: 1;
+  /*se pone por encima de un elemento*/
 
-
-
-    z-index: -1;
-    /*se pone debajo de un elemento*/
-    z-index: 1;
-    /*se pone por encima de un elemento*/
-
-
-    /*ubicaciones de elementos  despues de haber puesto un position podemos ubicar el elemento con esto*/
-    top: 12px;
-    right: 12px;
-    bottom: 12px;
-    left: 12px;
+  /*ubicaciones de elementos  despues de haber puesto un position podemos ubicar el elemento con esto*/
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
 }
 
 #opacity {
-    /*opacidad a un elemento*/
-    opacity: 0.4;
+  /*opacidad a un elemento*/
+  opacity: 0.4;
 }
 
 #shadows {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.609);
-    text-shadow: 3px 5px blue;
-
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.609);
+  text-shadow: 3px 5px blue;
 }
 
 #overflow {
-    /*para trabajar con el rebozamiento cuando el texto se sale del contenedor*/
+  /*para trabajar con el rebozamiento cuando el texto se sale del contenedor*/
 
-    overflow: visible;
-    /*hacer visible 0todo el texto*/
-    overflow: hidden;
-    /*oculta todo el texto que sobra*/
-    overflow: scroll;
-    /*crea una barra de desplamiento sino cabe todo el contenido en el contenendor*/
-    overflow: auto;
-    /*pone un scroll automatico de el lado que lo necesite */
-    overflow-y: hidden;
-    /*hace dicha funcion en la coordenada y*/
-    overflow-x: auto;
-    /*hace dicha funcion en la coordenada x*/
+  overflow: visible;
+  /*hacer visible 0todo el texto*/
+  overflow: hidden;
+  /*oculta todo el texto que sobra*/
+  overflow: scroll;
+  /*crea una barra de desplamiento sino cabe todo el contenido en el contenendor*/
+  overflow: auto;
+  /*pone un scroll automatico de el lado que lo necesite */
+  overflow-y: hidden;
+  /*hace dicha funcion en la coordenada y*/
+  overflow-x: auto;
+  /*hace dicha funcion en la coordenada x*/
 }
 
 #float {
-    /*ha que el elemento flote en el espacio que sobra de un elemento*/
-    float: left;
-    float: right;
-    /*Tambien alinea elementos a la derecha*/
-    float: none;
-    float: inherit;
+  /*ha que el elemento flote en el espacio que sobra de un elemento*/
+  float: left;
+  float: right;
+  /*Tambien alinea elementos a la derecha*/
+  float: none;
+  float: inherit;
 
-    clear: both;
-    /*sirve para romper el float*/
-    clear: right;
-    clear: left;
+  clear: both;
+  /*sirve para romper el float*/
+  clear: right;
+  clear: left;
 }
 
 /*haciendo resposiva una pagina*/
 
-@media only screen and (max-width:700px) {}
+@media only screen and (max-width: 700px) {
+}
 
-@media only screen and (max-width:500px) {}
-
+@media only screen and (max-width: 500px) {
+}
 
 /*#combinadores*/
 section p {
-    color: green;
+  color: green;
 }
 
 /*Seleccionando p descendiente de section*/
 /*acceder a todas las p de dicho section*/
 
-section>p {
-    color: white;
+section > p {
+  color: white;
 }
 
 /*Este le da formato solo a las p que sean hijas de section no a todas porque pueden haber hijas de hijas*/
 
-section+p {
-    color: red;
+section + p {
+  color: red;
 }
 
 /*Este selecciona la primera p etiqueta fuera del contenedor*/
 
-section~p {
-    color: yellow;
+section ~ p {
+  color: yellow;
 }
 
 /*nos ayuda a seleccionar todas las etiquetas p que sean hermanas de este section*/
 
-
-
 #inline-blocks {
-    display: inline-block;
-    /*permite establecer un ancho y una altura al elemento*/
-    /*se respetan los margenes */
+  display: inline-block;
+  /*permite establecer un ancho y una altura al elemento*/
+  /*se respetan los margenes */
 }
 
-
 /*pseudo clases*/
-
 
 /*:active                  /**/
 /*:hover                  /*Cuando el mouse pase por el encima*/
@@ -492,81 +472,87 @@ section~p {
 /*:last-child           /*al ultimo hijo*/
 
 p i:first-child {
-    /*da estilo a todas las primeras i de las etiquetas p*/
-    color: blue;
+  /*da estilo a todas las primeras i de las etiquetas p*/
+  color: blue;
 }
 
 p :hover i {
-    color: black;
+  color: black;
 }
 
 /*dicho p se entra dentro de estos simbolos*/
 p :lang("Nombre-de-la-clase") {
-    quotes: "~""~";
+  quotes: "~""~";
 }
 
 p::first-line {
-    color: #0b16b1;
+  color: #0b16b1;
 }
 
 /*dar estilo a la primera linea de un texto*/
 p::first-letter {
-    color: #0b16b1;
+  color: #0b16b1;
 }
 
 /*dar estilo a la primera letra */
 p::before {
-    content: url();
+  content: url();
 }
 
 /*Agrega lo que le pongamos antes de la etiqueta es decir al lado izquierdo*/
 p::after {
-    content: url();
+  content: url();
 }
 
 /*Hace lo contrario del before es decir lo pone despues*/
 p::selection {
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }
 
 /*Dar estilos al scrollbar*/
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: aqua;
-    border-radius: 50px;
+  background-color: aqua;
+  border-radius: 50px;
 }
 
 /*Cuando una persona seleccione una parte del texto esta se verá del color que le asignemos*/
 
-
-#Dropdowns {}
-
+#Dropdowns {
+}
 
 /* Atributos */
 /* Aplica css a traves de atributos  */
 /* Aplica los estilos a todas las etiquetas que tengan dicho atributo  */
 
-input[type="text"] {}
+input[type="text"] {
+}
 
-a[target] {}
+a[target] {
+}
 
-a[target=_blank] {}
+a[target="_blank"] {
+}
 
-[class|=top] {}
+[class|="top"] {
+}
 
 /*Las etiquetas que contegan la palabra top separada (Ya sea por guion o normal)  entre sus clases seran modificadas*/
-[class^="top"] {}
+[class^="top"] {
+}
 
 /*Selecciona todos los top que esten entre las clases de las etiquetas sin importar si estan pegada a una frase ejemplo topcomponenet*/
-[class$="test"] {}
+[class$="test"] {
+}
 
 /*Afecta todos los nombres de clases que terminen en test*/
-[class*="te"] {}
+[class*="te"] {
+}
 
 /*Edita todas las clases que tengan la palabra te incluida en su nombre */
 
@@ -577,220 +563,227 @@ adicional sobre algo cuando el usuario mueve el
 puntero del mouse sobre un 
 */
 
-
-
-
 /* transform 3D */
 
 #transforms {
-    /*este hace que rote como si se acostara hacia atras*/
-    -webkit-transform: rotateX(150deg);
-    /*safari*/
-    transform: rotateX(150deg
-            /*CAntidad de grados a rotar*/
-        );
+  /*este hace que rote como si se acostara hacia atras*/
+  -webkit-transform: rotateX(150deg);
+  /*safari*/
+  transform: rotateX(150deg /*CAntidad de grados a rotar*/);
 
-    -webkit-transform: rotateY(150deg);
-    /*safari*/
-    transform: rotateY(150deg
-            /*CAntidad de grados a rotar*/
-        );
+  -webkit-transform: rotateY(150deg);
+  /*safari*/
+  transform: rotateY(150deg /*CAntidad de grados a rotar*/);
 
-    /*rota en circulo como si fuera un abanico moviendo su elise */
-    -webkit-transform: rotateZ(150deg);
-    /*safari*/
-    transform: rotateZ(150deg
-            /*CAntidad de grados a rotar*/
-        );
+  /*rota en circulo como si fuera un abanico moviendo su elise */
+  -webkit-transform: rotateZ(150deg);
+  /*safari*/
+  transform: rotateZ(150deg /*CAntidad de grados a rotar*/);
 
+  transform: translateX(100px);
+  /*Traslada el elemento a la derecha en esa cantidad de pixeles*/
+  /*Para la izquierda solo pones el valor negativo*/
 
+  transform: translateY(100px);
+  /*Mueve el valorr hacia abajo*/
+  /*Si fuera negarivo lo moveria hacia arriba*/
 
-    transform: translateX(100px);
-    /*Traslada el elemento a la derecha en esa cantidad de pixeles*/
-    /*Para la izquierda solo pones el valor negativo*/
+  transform: translateZ(100px);
 
-    transform: translateY(100px);
-    /*Mueve el valorr hacia abajo*/
-    /*Si fuera negarivo lo moveria hacia arriba*/
+  transform: translate(200px, 100px);
+  /*El primero hace referencia al eje X y el segundo al eje Y*/
 
-    transform: translateZ(100px);
+  transform: scale(1);
+  /*este es el tamaño original pero si lo queremos poner mas grande vamos subiendo segun el tamaño que queramos*/
+  transform: scale(1.2);
+  /* etc */
 
-    transform: translate(200px, 100px);
-    /*El primero hace referencia al eje X y el segundo al eje Y*/
+  transform: scaleX(1.4);
+  /*Aumenta su tamaño solo en el eje X*/
 
-    transform: scale(1);
-    /*este es el tamaño original pero si lo queremos poner mas grande vamos subiendo segun el tamaño que queramos*/
-    transform: scale(1.2);
-    /* etc */
+  transform: scaleY(1.4);
+  /*Aumenta su tamaño solo en el eje Y*/
 
-    transform: scaleX(1.4);
-    /*Aumenta su tamaño solo en el eje X*/
-
-    transform: scaleY(1.4);
-    /*Aumenta su tamaño solo en el eje Y*/
-
-    /*Esta es la forma correcta para darle las tres propiedades a un solo elemento*/
-    transform: translate(100px, 200px) scale(1.5) rotateZ(100deg);
-
+  /*Esta es la forma correcta para darle las tres propiedades a un solo elemento*/
+  transform: translate(100px, 200px) scale(1.5) rotateZ(100deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Creacion de funciones en css */
 @keyframes Example {
-    from {
-        background-color: #0b16b1;
-    }
+  from {
+    background-color: #0b16b1;
+  }
 
-    to {
-        background-color: aqua;
-    }
+  to {
+    background-color: aqua;
+  }
 }
-
 
 @-webkit-keyframes example {
-    from {
-        background-color: #0b16b1;
-    }
+  from {
+    background-color: #0b16b1;
+  }
 
-    to {
-        background-color: aqua;
-    }
+  to {
+    background-color: aqua;
+  }
 }
-
 
 /*Para aplicar esto damos css al contenedor que se lo queramos aplicar*/
 
 /*La animacion se en cada porciento del tiempo ejecuta dicho color */
 /*para que la animacion funcione en el navegador de safari*/
 @-webkit-keyframes centro {
-    25% {
-        background-color: #0bb121;
-    }
+  25% {
+    background-color: #0bb121;
+  }
 
-    50% {
-        background-color: #b6e7bc;
-    }
+  50% {
+    background-color: #b6e7bc;
+  }
 
-    75% {
-        background-color: #b10bb1;
-    }
+  75% {
+    background-color: #b10bb1;
+  }
 
-    100% {
-        background-color: #b10b0b;
-    }
+  100% {
+    background-color: #b10b0b;
+  }
 }
 
 /*Para algunos navegadores*/
 @keyframes centro {
-    0% {
-        background-color: #4162cf;
-    }
+  0% {
+    background-color: #4162cf;
+  }
 
-    25% {
-        background-color: #0bb121;
-    }
+  25% {
+    background-color: #0bb121;
+  }
 
-    50% {
-        background-color: #b6e7bc;
-    }
+  50% {
+    background-color: #b6e7bc;
+  }
 
-    75% {
-        background-color: #b10bb1;
-    }
+  75% {
+    background-color: #b10bb1;
+  }
 
-    100% {
-        background-color: #b10b0b;
-    }
+  100% {
+    background-color: #b10b0b;
+  }
 }
 
 #Animacion {
-    /* llamado de la animacion */
-    animation-name: centro;
-    /* tiempo de la animacion */
-    animation-duration: 5s;
+  /* llamado de la animacion */
+  animation-name: centro;
+  /* tiempo de la animacion */
+  animation-duration: 5s;
 
-    /*aqui decimos cuanto tardara la animacion para ejecutarser*/
-    /* Si ponemos el tiempo en negativo cuando carguemos la pagina es como si ya se hubiese comenzado a ejecutar */
-    animation-delay: 3s;
-    animation-delay: -3s;
+  /*aqui decimos cuanto tardara la animacion para ejecutarser*/
+  /* Si ponemos el tiempo en negativo cuando carguemos la pagina es como si ya se hubiese comenzado a ejecutar */
+  animation-delay: 3s;
+  animation-delay: -3s;
 
-    /* Esta dice las veces que se debe de ejecutar una animacion*/
-    animation-iteration-count: 4;
-    /* ejecuta la animacion infinita */
-    animation-iteration-count: infinite;
+  /* Esta dice las veces que se debe de ejecutar una animacion*/
+  animation-iteration-count: 4;
+  /* ejecuta la animacion infinita */
+  animation-iteration-count: infinite;
 
-    /* Especifica hacia donde debe de moverse nuestra animacion */
-    animation-direction: normal;
-    animation-direction: reverse;
-    animation-direction: alternate;
-    animation-direction: alternate-reverse;
+  /* Especifica hacia donde debe de moverse nuestra animacion */
+  animation-direction: normal;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-direction: alternate-reverse;
 
-    /*Especifica en que tiempo estara rapido y en cual lento etc */
-    animation-timing-function: ease;
-    /*Especifica un inicio lento, despues va rapido , y termina lento */
-    animation-timing-function: linear;
-    /*La misma velocidad todo el tiempo*/
-    animation-timing-function: ease-in;
-    /*inicio lento */
-    animation-timing-function: ease-out;
-    /*final lento */
-    animation-timing-function: ease-in-out;
-    /*inicio lento y final lento */
-    animation-timing-function: cubic-bezier(n, n, n, n);
-    /*Te permite poner tus propios valores*/
+  /*Especifica en que tiempo estara rapido y en cual lento etc */
+  animation-timing-function: ease;
+  /*Especifica un inicio lento, despues va rapido , y termina lento */
+  animation-timing-function: linear;
+  /*La misma velocidad todo el tiempo*/
+  animation-timing-function: ease-in;
+  /*inicio lento */
+  animation-timing-function: ease-out;
+  /*final lento */
+  animation-timing-function: ease-in-out;
+  /*inicio lento y final lento */
+  animation-timing-function: cubic-bezier(n, n, n, n);
+  /*Te permite poner tus propios valores*/
 
-    /*hace que el elemento se quede donde termino la animacion */
-    animation-fill-mode: forwards;
-    animation-fill-mode: backwards;
-    animation-fill-mode: both;
+  /*hace que el elemento se quede donde termino la animacion */
+  animation-fill-mode: forwards;
+  animation-fill-mode: backwards;
+  animation-fill-mode: both;
 
-
-
-    /*tambien se puede poner todo lo que debe de hacer solo en una etiqueta animation*/
-    /*animation name */
-    /*animation duration */
-    /*animation timing function*/
-    /*animation delay*/
-    /*animation iteration count */
-    /*animation direction*/
-    animation : centro 2s linear 2s infinite alternate;
-
+  /*tambien se puede poner todo lo que debe de hacer solo en una etiqueta animation*/
+  /*animation name */
+  /*animation duration */
+  /*animation timing function*/
+  /*animation delay*/
+  /*animation iteration count */
+  /*animation direction*/
+  animation: centro 2s linear 2s infinite alternate;
 }
 
+#columnas {
+  /*Especifica el numero de columnas*/
+  column-count: 4;
+  /* Es la separacion que va a haber entre las columnas */
+  column-gap: 20px;
+  /* sirve para dividir con rayas las columnas o cualquier otro estilo que le queramos dar */
+  column-rule-style: solid;
+  /* Ancho de las rayas que dividen las columnas */
+  column-rule-width: 1px;
+  /* color de la raya que divide las columnas */
+  column-rule-color: white;
+  /* Especificamos todas esas propiedades juntas de los rules*/
+  column-rule: 1px solid blue;
+  /* Especifica cuantas columnas debe abarcar un elemento en especifico all abarca todas las columnas */
+  column-span: all;
+  /* Ancho optimo de nuestras columnas */
+  column-width: 200px;
+}
 
-#columnas{
-    /*Especifica el numero de columnas*/
-    column-count: 4;
-    /* Es la separacion que va a haber entre las columnas */
-    column-gap: 20px;
-    /* sirve para dividir con rayas las columnas o cualquier otro estilo que le queramos dar */
-    column-rule-style: solid;
-    /* Ancho de las rayas que dividen las columnas */
-    column-rule-width: 1px; 
-    /* color de la raya que divide las columnas */
-    column-rule-color: white;
-    /* Especificamos todas esas propiedades juntas de los rules*/
-    column-rule:1px solid blue ;
-    /* Especifica cuantas columnas debe abarcar un elemento en especifico all abarca todas las columnas */
-    column-span: all;
-    /* Ancho optimo de nuestras columnas */
-    column-width: 200px;
+#Flexbox {
+  /* Muestra los elementos uno al lado del otro */
+  display: flex;
+  /* Muestra los elementos en direccion de columna */
+  flex-direction: column;
+  /* Muestra los elementos en direccion de columna de forma inversa */
+  flex-direction: column-reverse;
+  /* los muestra en fila tambien  */
+  flex-direction: row;
+  /* los muestra en fila tambien pero en reversa  */
+  flex-direction: row-reverse;
+  /* muestra los elementos que caben en el espacio los otros los muestra en la siguiente linea */
+  flex-wrap: wrap;
+  /* no deja que los elementos pasen a la otra linea */
+  flex-wrap: no-wrap;
+  /* En ves de mandar los elementos que sobran hacia abajo los manda hacia arriba */
+  flex-wrap: wrap-reverse;
+  /* puedes usar esta propiedad para usar las propiedades flex direction y flex-wrap */
+  flex-flow: wrap row;
+  /* justifica el contenido al centro  */
+  justify-content: center;
+  /* justifica el contenido al inicio del contenedor */
+  justify-content: flex-start;
+/* justifica el contendio al final */
+  justify-content: flex-end;
+/* da el mismo espacio desde el borde y todo los elementos */
+  justify-content: space-evenly;
+/* da espacio eentre los elementos sin contar el espacio del elemento al borde */
+  justify-content:space-between;
+
+  justify-content:space-around;
+  /* alinea los elementos de forma vertical  */
+  align-items: center;
+/* hace que todos los elementos se extrechen para abarcar el contenedor de manera vertical */
+  align-items: stretch;
+  /* Se alinea con la base que tenga el texto*/
+  align-items: baseline;
+
+  align-items:space-between;
+
+  align-items: space-around;
+
 }
